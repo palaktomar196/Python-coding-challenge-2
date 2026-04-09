@@ -1,0 +1,20 @@
+Question:- Scenrio:- An online platform  categories used by age group.
+Task:- Write a program to classify the user as Minor, adult, or senior.
+Example:- Input:- 65
+                        Output Bonus:- senior 
+
+
+
+
+   Answer:- # Program to classify user by age
+
+
+age = int(input("Enter age: "))
+
+
+if age < 18:
+    print("Minor")
+elif age < 60:
+    print("Adult")
+else:
+    print("Senior")
