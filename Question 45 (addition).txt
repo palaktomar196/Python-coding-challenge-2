@@ -1,0 +1,11 @@
+Question:- module addition.   
+
+
+
+
+
+
+
+
+Answer:- def add(a, b):
+    return a + b
