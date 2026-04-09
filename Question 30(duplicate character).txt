@@ -1,0 +1,22 @@
+Question:- find duplicate character 
+
+
+
+
+
+
+Answer:- def find_duplicates(s):
+    seen = ""
+    duplicates = ""
+    
+    for ch in s:
+        if ch not in seen:
+            seen += ch
+        elif ch not in duplicates:
+            duplicates += ch
+    
+    return duplicates
+
+
+text = input("Enter string: ")
+print(find_duplicates(text))
