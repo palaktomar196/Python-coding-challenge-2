@@ -1,0 +1,15 @@
+Question:- Scenrio:- A payment system processes only numbers divisible by both 3 and 5.
+ Task:- Write a program to check if a number satisfies this condition.
+Example:- Input:-15
+                        Output bonus:- yes
+
+
+Answer:-  num = int(input("Enter number: "))
+
+
+if num % 3 == 0 and num % 5 == 0:
+    print("Yes")
+else:
+    print("No")
+Input:- 15
+Output:-yes
