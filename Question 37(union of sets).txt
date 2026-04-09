@@ -1,0 +1,14 @@
+Question:-  union of sets 
+
+
+
+
+Answer:- def union_sets(a, b):
+    return a | b
+
+
+set1 = set(map(int, input("Enter set1: ").split(",")))
+set2 = set(map(int, input("Enter set2: ").split(",")))
+
+
+print(union_sets(set1, set2))
