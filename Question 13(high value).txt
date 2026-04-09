@@ -1,0 +1,20 @@
+Question:- Scenrio:- a report count high value entries 
+Task:+ write a program to count number greater than 50 in a list 
+Example:- input:- (10,60,30,80)
+Output:- 2
+
+
+
+
+Answer:-  def count_greater_than_50(nums):
+    count = 0
+    for i in nums:
+        if i > 50:
+            count = count + 1
+    return count
+
+
+nums = list(map(int, input("Enter numbers (comma separated): ").split(",")))
+
+
+print(count_greater_than_50(nums))
