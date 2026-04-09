@@ -1,0 +1,17 @@
+Question:- Anagram check 
+
+
+
+
+
+
+Answer:-    def is_anagram(s1, s2):
+    if sorted(s1) == sorted(s2):
+        print("True")
+    else:
+        print("False")
+
+
+a = input("Enter first string: ")
+b = input("Enter second string: ")
+is_anagram(a, b)
