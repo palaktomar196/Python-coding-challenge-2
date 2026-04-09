@@ -1,0 +1,21 @@
+Question:- count unique elements 
+
+
+
+
+
+
+
+
+Answer:- def count_unique(lst):
+    unique = []
+    
+    for i in lst:
+        if i not in unique:
+            unique.append(i)
+    
+    return len(unique)
+
+
+nums = list(map(int, input("Enter numbers: ").split(",")))
+print(count_unique(nums))
