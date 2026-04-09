@@ -1,0 +1,16 @@
+Question:-  intersection of sets 
+
+
+
+
+
+
+Answer:-def intersection_sets(a, b):
+    return a & b
+
+
+set1 = set(map(int, input("Enter set1: ").split(",")))
+set2 = set(map(int, input("Enter set2: ").split(",")))
+
+
+print(intersection_sets(set1, set2))
