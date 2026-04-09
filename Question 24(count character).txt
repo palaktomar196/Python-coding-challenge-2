@@ -1,0 +1,16 @@
+Question:- count character
+
+
+Answer:-text = input("Enter string: ")
+ch = input("Enter character: ")
+
+
+count = 0
+
+
+for i in text:
+    if i == ch:
+        count = count + 1
+
+
+print(count)
