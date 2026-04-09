@@ -1,0 +1,19 @@
+Question:- Replace vowels 
+
+
+
+
+
+
+Answer:-    def replace_vowels(s):
+    result = ""
+    for ch in s:
+        if ch in "aeiouAEIOU":
+            result += "*"
+        else:
+            result += ch
+    return result
+
+
+text = input("Enter string: ")
+print(replace_vowels(text))
