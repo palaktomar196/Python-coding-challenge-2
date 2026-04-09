@@ -1,0 +1,19 @@
+Question:- longest word
+
+
+
+
+
+
+Answer:-   def longest_word(s):
+    words = s.split()
+    longest = words[0]
+    
+    for w in words:
+        if len(w) > len(longest):
+            longest = w
+    return longest
+
+
+text = input("Enter sentence: ")
+print(longest_word(text))
