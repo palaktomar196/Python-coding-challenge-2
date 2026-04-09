@@ -1,0 +1,18 @@
+Question:-  commen elements between list
+
+
+
+
+Answer:- def common_elements(a, b):
+    result = []
+    for i in a:
+        if i in b and i not in result:
+            result.append(i)
+    return result
+
+
+list1 = list(map(int, input("Enter list1: ").split(",")))
+list2 = list(map(int, input("Enter list2: ").split(",")))
+
+
+print(common_elements(list1, list2))
