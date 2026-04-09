@@ -1,0 +1,15 @@
+Question:- key exits in dictionary 
+
+
+
+
+Answer:- def check_key(d, key):
+    if key in d:
+        return "Yes"
+    else:
+        return "No"
+
+
+d = {"a":1,"b":2}
+k = input("Enter key: ")
+print(check_key(d, k))
