@@ -1,0 +1,21 @@
+Question:- Remove duplicate from list.
+
+
+
+
+
+
+
+
+
+
+Answer:-  def remove_duplicates(lst):
+    result = []
+    for i in lst:
+        if i not in result:
+            result.append(i)
+    return result
+
+
+nums = list(map(int, input("Enter numbers: ").split(",")))
+print(remove_duplicates(nums))
