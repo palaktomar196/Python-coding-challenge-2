@@ -1,0 +1,17 @@
+Question:- Scenrio:- a store tracks daily sales 
+Task:- write a program to calculate total weekly sales 
+Example:- input:- (100,200,150,300,250,400,100)
+Output:- 1500
+
+
+Answer :-  sales = list(map(int, input("Enter weekly sales (comma separated): ").split(",")))
+
+
+total = 0
+
+
+for i in sales:
+    total = total + i
+
+
+print(total)
