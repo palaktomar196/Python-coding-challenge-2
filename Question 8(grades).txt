@@ -1,0 +1,17 @@
+Question:- Scenrio:- an exam system assign grades.
+Task:- write a program to assign grades based on marks.
+Example:- input:- 82
+Output:-8
+Answer:-  marks = int(input("Enter marks: "))
+
+
+if marks >= 90:
+    print("A")
+elif marks >= 80:
+    print("B")
+elif marks >= 70:
+    print("C")
+elif marks >= 60:
+    print("D")
+else:
+    print("F")
