@@ -1,0 +1,13 @@
+Question:- A ticket booking system calculate ticket price based on day.
+Task:- write a program to determine ticket price 
+Example:- input:- Sunday 
+Output:-200
+
+
+Answer:-   day = input("Enter day: ")
+
+
+if day == "Sunday":
+    print(200)
+else:
+    print(150)
