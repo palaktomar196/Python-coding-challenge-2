@@ -1,0 +1,14 @@
+Question:- Scenrio:- A system validates login credentials.
+Task:- Write a program to verify username and password.
+Example:- Input admin:- 1234
+Output:- login successful 
+
+
+Answer:- username = input("Enter username: ")
+password = input("Enter password: ")
+
+
+if username == "admin" and password == "1234":
+    print("Login successful")
+else:
+    print("Login failed")
