@@ -1,0 +1,11 @@
+Question:- sort dictionary by keys 
+
+
+
+
+Answer:- def sort_dict(d):
+    return dict(sorted(d.items()))
+
+
+d = {"b":2,"a":1}
+print(sort_dict(d))
