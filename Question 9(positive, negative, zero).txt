@@ -1,0 +1,13 @@
+Question:- Scenrio:- A finances tools categories numbers.
+Task:- write a program to check if a number positive, negative or zero.
+Example:- input:- 5
+Output:- negative 
+Answer:-   num = int(input("Enter number: "))
+
+
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")
